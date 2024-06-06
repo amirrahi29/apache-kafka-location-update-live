@@ -8,7 +8,6 @@ public class KafkaConfig {
     
     @KafkaListener(topics = AppConstants.LOCTION_UPDATE_TOPIC, groupId = AppConstants.LOCTION_UPDATE_GROUP_ID)
     public void updatedLocation(String value){
-
         System.out.println("myValue: "+value);
     }
 
