@@ -14,7 +14,7 @@ produce messages
 ------------------------------------------------------------------------------------
 bin\windows\kafka-console-producer.bat --topic amir-topic --bootstrap-server localhost:9092
 
-//consumenr message
+consumenr message
 ---------------------------------------------------------------------------------------
 bin\windows\kafka-console-consumer.bat --topic amir-topic --from-beginning --bootstrap-server localhost:9092
 
